@@ -11,7 +11,7 @@ while userWantsMore in ['Y', 'y', 'Yes', 'yes', 'YES']:
   print
   print('The first Number is ' + str(random.randint(1,6)) + ' and the second Number is ' + str(random.randint(1,6)))
   print('Do you want to retry this?')
-  userWantsMore = raw_input('Your answer: ')
+  userWantsMore = input('Your answer: ')
 
 print
 print('###################################')
